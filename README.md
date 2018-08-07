@@ -28,7 +28,7 @@ Please see html readmes for more information.
 ## Authors
 - XSLT-stylesheets are written by Tor-Arne Dahl, Trude Eikebrokk and Eirik Hanssen at Oslo and Akershus University College of Applied Sciences.
 - The windows batch-files, GNU/Linux shellscripts, and the xproc-pipeline are written by Eirik Hanssen. 
-- This package also uses JATS tools that contains XSLT stylesheets developed by Wendell Piez for National Library of Medicine. The scripts from the JATS tools package are located in the assets/jats-xslt folder.
+- This package also uses JATS tools that contains XSLT stylesheets developed by Wendell Piez for National Library of Medicine. The scripts from the JATS tools package are located in the `assets/jats-xslt` folder.
 
 ## Maintainer and official website
 This package is hosted on github: https://github.com/eirikhanssen/jats2epub
@@ -43,8 +43,8 @@ This is the working version that was ready at the time of submitting the article
 
 ## Current status
 Several improvements have been made: Code has been cleaned up for better readability and several bugs have been fixed.
-It is now easier to troubleshoot, because all intermediate documents are saved in output_working folder after each run.
-To preview html-file that will be used for upload to html fulltext, just open output_working/60-webversion.html. All 
+It is now easier to troubleshoot, because all intermediate documents are saved in `output_working` folder after each run.
+To preview html-file that will be used for upload to html fulltext, just open `output_working/60-webversion.html`. All 
 href/src links to stylesheets and images have been altered to work from this location.
 
 ## Related projects
@@ -73,7 +73,7 @@ I am currently working with two xml-based formats for the automatic tagging solu
     - Generate a clickable linked list with a table of contents (TOC) based on the document layout for easier navigation. The linked list TOC could be accessible as a drop-down menu with fixed CSS positioning.
         - This could be implemented using JavaScript/CSS.
 - ePub enhancements:
-    - Review ePub css based on WAI guidelines for readability. Speficically look at line height and space between pharagraphs/tables.
+    - Review ePub css based on WAI guidelines for readability. Specifically look at line height and space between paragraphs/tables.
     - Look at css for displaying tables.
 
 ## Todo
